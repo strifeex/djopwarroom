@@ -1,7 +1,7 @@
 <?php
 require_once 'connectDBOracle.php';
 
-$sql = file_get_contents('count_jvn_groupyear_all.sql', true);
+$sql = file_get_contents('count_case_groupyear_all.sql', true);
 
 $results = $pdo->prepare($sql);  
 $results->execute();
