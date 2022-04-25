@@ -111,6 +111,6 @@
 <script src="dist/js/demo.js"></script>
 <script src="controller/case_groupyear_all.js?v=<?php echo filemtime('controller/case_groupyear_all.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="dist/js/pages/dashboard2.js"></script> -->
+<script src="js/switchthemecheckbox.js"></script>
 </body>
 </html>

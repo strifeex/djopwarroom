@@ -5,7 +5,7 @@
   require_once 'webheader.html';
 ?>
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed sidebar-collapse">
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
 
 <?php
@@ -111,6 +111,6 @@
 <script src="dist/js/demo.js"></script>
 <script src="controller/case_budgetyear_all.js?v=<?php echo filemtime('controller/case_budgetyear_all.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="dist/js/pages/dashboard2.js"></script> -->
+<script src="js/switchthemecheckbox.js"></script>
 </body>
 </html>
