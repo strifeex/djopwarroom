@@ -5,7 +5,7 @@
   require_once 'webheader.html';
 ?>
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed sidebar-collapse">
 <div class="wrapper">
 
 <?php
@@ -28,7 +28,7 @@
             <!-- TABLE: LATEST ORDERS -->
             <div class="card">
               <div class="card-header border-transparent">
-                <h3 class="card-title">จำนวนเยาวชนที่ถูกดำเนินคดี (หน่วย:คน)</h3>
+                <h3 class="card-title">จำนวนดำเนินคดี (หน่วย:คดี)</h3>
 
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -45,7 +45,7 @@
                   <table class="table m-0">
                     <thead>
                     <tr>
-                      <th>ปีปฏิทิน</th>
+                      <th>ปีงบประมาณ</th>
                       <th>ประกัน</th>
                       <th>ควบคุม</th>
                       <th>ไม่ควบคุม</th>
@@ -109,7 +109,7 @@
 
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
-<script src="controller/jvn_groupyear_all.js?v=<?php echo filemtime('controller/jvn_groupyear_all.js'); ?>"></script>
+<script src="controller/case_budgetyear_all.js?v=<?php echo filemtime('controller/case_budgetyear_all.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <!-- <script src="dist/js/pages/dashboard2.js"></script> -->
 </body>

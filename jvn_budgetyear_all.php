@@ -45,7 +45,7 @@
                   <table class="table m-0">
                     <thead>
                     <tr>
-                      <th>ปีปฏิทิน</th>
+                      <th>ปีงบประมาณ</th>
                       <th>ประกัน</th>
                       <th>ควบคุม</th>
                       <th>ไม่ควบคุม</th>
@@ -109,7 +109,7 @@
 
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
-<script src="controller/jvn_groupyear_all.js?v=<?php echo filemtime('controller/jvn_groupyear_all.js'); ?>"></script>
+<script src="controller/jvn_budgetyear_all.js?v=<?php echo filemtime('controller/jvn_budgetyear_all.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <!-- <script src="dist/js/pages/dashboard2.js"></script> -->
 </body>
