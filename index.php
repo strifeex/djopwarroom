@@ -129,5 +129,6 @@
 <script src="controller/dashboard.js?v=<?php echo filemtime('controller/dashboard.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <!-- <script src="dist/js/pages/dashboard2.js"></script> -->
+<script src="js/switchthemecheckbox.js"></script>
 </body>
 </html>
