@@ -5,7 +5,7 @@
   require_once 'webheader.html';
 ?>
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed sidebar-collapse">
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
 
 <?php
@@ -23,12 +23,12 @@
         <!-- Main row -->
         <div class="row">
           <!-- Left col -->
-          <div class="col-md-12">
+          <div class="col-md-8">
 
             <!-- TABLE: LATEST ORDERS -->
             <div class="card">
               <div class="card-header border-transparent">
-                <h3 class="card-title">จำนวนคดีแยกตามสัญชาติ</h3>
+                <h3 class="card-title">จำนวนเด็กของหน่วยงานเฉลี่ยต่อวันทั้งปีงบ 2564 </h3>
 
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -45,21 +45,9 @@
                   <table class="table m-0" id="datatb">
                     <thead>
                     <tr>
-                      <th>ปีปฏิทิน</th>
-                      <th>อื่นๆ</th>
-                      <th>เวียดนาม</th>
-                      <th>พม่า</th>
-                      <th>ลาว</th>
-                      <th>กัมพูชา</th>
-                      <th>จีน</th>
-                      <th>ไทย</th>
-                      <th>ไทย(ไม่ได้แจ้งเกิด)</th>
-                      <th>บรูไน</th>
-                      <th>อินโดนีเซีย</th>
-                      <th>มาเลเซีย</th>
-                      <!-- <th>ฟิลิปปินส์</th> -->
-                      <!-- <th>สิงคโปร์</th> -->
-                      <th>ไม่ระบุ</th>
+                      <th>หน่วยงาน</th>
+                      <th>ชาย</th>
+                      <th>หญิง</th>
                       <th>รวม</th>
                     </tr>
                     </thead>
@@ -120,8 +108,7 @@
 
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
-<script src="js/utils.js"></script>
-<script src="controller/case_nation_groupyear_all.js?v=<?php echo filemtime('controller/case_nation_groupyear_all.js'); ?>"></script>
+<script src="controller/count_avg_stat.js?v=<?php echo filemtime('controller/count_avg_stat.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="js/switchthemecheckbox.js"></script>
 </body>
