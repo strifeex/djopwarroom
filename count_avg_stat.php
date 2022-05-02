@@ -108,6 +108,7 @@
 
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<script src="js/utils.js"></script>
 <script src="controller/count_avg_stat.js?v=<?php echo filemtime('controller/count_avg_stat.js'); ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="js/switchthemecheckbox.js"></script>
