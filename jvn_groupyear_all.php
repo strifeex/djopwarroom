@@ -31,9 +31,9 @@
                 <h3 class="card-title">จำนวนเยาวชนที่ถูกดำเนินคดี (หน่วย:คน)</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
+                  <a href="#" class="btn btn-tool btn-sm" onclick="exportTableToExcel('tableData')">
+                    <i class="fas fa-download"></i>
+                  </a>
                   <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
                     <i class="fas fa-times"></i>
                   </button> -->
@@ -42,7 +42,7 @@
               <!-- /.card-header -->
               <div class="card-body p-0">
                 <div class="table-responsive">
-                  <table class="table m-0">
+                  <table class="table m-0" id="tableData">
                     <thead>
                     <tr>
                       <th>ปีปฏิทิน</th>

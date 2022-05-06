@@ -97,16 +97,7 @@ async function get_reportData() {
                     color: 'rgba(0, 0, 0, .2)',
                     zeroLineColor: 'transparent'
                 },
-                ticks: $.extend({
-                    beginAtZero: true,
-                    callback: function(value) {
-                        if (value >= 1000) {
-                            value /= 1000
-                            value += 'k'
-                        }
-                        return '$' + value
-                    }
-                }, ticksStyle)
+                ticks: ticksStyle
             }],
             xAxes: [{
                 display: true,
