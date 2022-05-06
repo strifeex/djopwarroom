@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function get_reportData() {
 
+  $("#preloadbox").show();
+
   let url = 'model/count_jvn_groupyear_all.php';
 
   let data = await fetch(url).then(res => res.json());
@@ -31,7 +33,6 @@ async function get_reportData() {
   });
 
   document.getElementById("tableBody").innerHTML = result;
-
 
   const labels = chart_labels;
 

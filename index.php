@@ -40,7 +40,7 @@
         <!-- Main row -->
         <div class="row">
           <!-- Left col -->
-          <div class="col-lg-6">
+          <div class="col-lg-12">
 
             <!-- TABLE: LATEST ORDERS -->
             <div class="card">
@@ -84,7 +84,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <div class="card">
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
