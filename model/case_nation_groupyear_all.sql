@@ -1,27 +1,3 @@
-SELECT * FROM (
-	SELECT RECEIVE_YEAR, JVN_NATION, COUNT(JVN_ID) AS amount FROM VDTL_CMST_CASE_MAIN_HD2
-	WHERE RECEIVE_DATE >= to_date('01/01/2018','dd/mm/yyyy') 
-	GROUP BY RECEIVE_YEAR, JVN_NATION 
-	ORDER BY RECEIVE_YEAR 
-) 
-PIVOT(
-    sum(amount)  
-    FOR JVN_NATION
-    IN ( 
-    '01' อื่น,
-		'02' เวียดนาม,
-		'03' พม่า,
-		'04' ลาว,
-		'05' กัมพูชา,
-		'06' จีน,
-		'07' ไทย,
-		'08' ไทยไม่ได้แจ้งเกิด,
-		'09' บรูไน,
-		'10' อินโดนีเซีย,
-		'11' มาเลเซีย,
-		-- '12' ฟิลิปปินส์,
-		-- '13' สิงคโปร์,
-		'00' ไม่ระบุ
-    )
-)
-ORDER BY RECEIVE_YEAR
+SELECT YEAR, JVN_NATION1, JVN_NATION2, JVN_NATION3, JVN_NATION4, JVN_NATION5, 
+JVN_NATION6, JVN_NATION7, JVN_NATION8, JVN_NATION9, JVN_NATION10, JVN_NATION11, JVN_NATION0 
+FROM WARROOM_CASE_NATION_ALL ORDER BY YEAR

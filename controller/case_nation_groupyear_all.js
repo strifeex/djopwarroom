@@ -22,7 +22,7 @@ async function get_reportData() {
     let sum = cols.reduce((previousValue, currentValue) => +previousValue + +currentValue);
 
     result += '<tr>';
-    result += `<td>${d.RECEIVE_YEAR}</td>`;
+    result += `<td>${d.YEAR}</td>`;
     cols.forEach(e => {
       result += `<td>${+e}</td>`;
     });
