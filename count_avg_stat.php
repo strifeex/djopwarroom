@@ -22,6 +22,14 @@
       <div class="container-fluid">
         <!-- Main row -->
         <div class="row">
+
+          <div class="col-sm-8">
+            <div class="form-group">
+              <select id="report_year" class="form-control">
+              </select>
+            </div>
+          </div>
+
           <!-- Left col -->
           <div class="col-md-8">
 
@@ -106,11 +114,10 @@
 <!-- ChartJS -->
 <script src="plugins/chart.js/Chart.min.js"></script>
 
-<!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 <script src="js/utils.js"></script>
 <script src="controller/count_avg_stat.js?v=<?php echo filemtime('controller/count_avg_stat.js'); ?>"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
 <script src="js/switchthemecheckbox.js"></script>
 </body>
 </html>
