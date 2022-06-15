@@ -23,17 +23,17 @@ async function get_reportData() {
 
   data.forEach(d => {
 
-    chart_labels.push(d.HEADYEAR);
-    chart_datasetsN.push(d.N);
-    chart_datasetsY.push(d.Y);
-    chart_datasetsNLL.push(d.NLL);
+    chart_labels.push(d.YEAR);
+    chart_datasetsN.push(d.ENSURE);
+    chart_datasetsY.push(d.CONTROL);
+    chart_datasetsNLL.push(d.NOCONTROL);
 
     result += '<tr>';
-    result += `<td>${d.HEADYEAR}</td>`;
-    result += `<td>${d.N}</td>`;
-    result += `<td>${d.Y}</td>`;
-    result += `<td>${d.NLL}</td>`;
-    result += `<td>${+d.N + +d.Y + +d.NLL}</td>`;
+    result += `<td>${d.YEAR}</td>`;
+    result += `<td>${d.ENSURE}</td>`;
+    result += `<td>${d.CONTROL}</td>`;
+    result += `<td>${d.NOCONTROL}</td>`;
+    result += `<td>${+d.TOTAL}</td>`;
     result += '</tr>';
   });
 
