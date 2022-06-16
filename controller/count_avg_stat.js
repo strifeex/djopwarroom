@@ -45,7 +45,6 @@ async function get_reportData(report_year) {
   let url = `model/count_avg_stat.php?report_year=${report_year}`;
 
   let data = await fetch(url).then(res => res.json());
-  console.log(data);
   
   let result = '';
   data.forEach(d => {
